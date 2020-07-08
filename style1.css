@@ -1,0 +1,64 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    color: #424242;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    overflow-x: hidden;
+    position: relative;
+}
+.wm-topstrip                   
+{ background-color: #ffffff;
+    
+}
+
+.wm-topstrip {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;
+    position: relative;
+}
+#wm-header [class*="col-md-"] {
+    position: fixed;
+}
+
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+ .col-md-2,  .col-md-8,  {
+    position: fixed;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*:before, *:after {
+    
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.col-md-8 {
+    float: left;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#wm-topstrip .container{position: relative}
+container { height: 100%; }
+
+#header_container .container {position: fixed;}
+* {
+  
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.42857143;
+}
